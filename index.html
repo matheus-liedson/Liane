@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nome da Candidata · Proposta para a Direção Administrativa</title>
-<meta name="description" content="Conheça as propostas de Nome da Candidata para a Direção Administrativa.">
+<title>Liane Panzenhagen · Candidata à Direção Administrativa do Campus</title>
+<meta name="description" content="Conheça a proposta de trabalho de Liane Panzenhagen, candidata à Direção de Unidade Administrativa Regionalizada do Campus Universitário do Vale do Teles Pires.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
@@ -95,6 +95,13 @@
   .contact .btn.main{background:var(--pine);color:#fff}
   footer{padding:1.6rem 0;font-size:.9rem;color:#51645f;text-align:center}
 
+  .items{list-style:none;display:grid;gap:.9rem;margin-top:1.2rem}
+  .items li{padding-left:1.1rem;border-left:3px solid var(--sun)}
+  .items b{color:var(--pine);font-weight:700}
+  .about h3{font-family:var(--display);font-size:1.3rem;color:var(--pine);margin-top:1.8rem}
+  .contact p{margin-top:1rem;max-width:32rem}
+  .vote{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,6vw,4.4rem);letter-spacing:-.03em;line-height:1}
+  .props .lede{color:var(--ink);font-weight:500}
   @media (max-width:820px){
     .hero .wrap,.about .wrap{grid-template-columns:1fr}
     .hero{padding-bottom:4rem}
@@ -116,11 +123,11 @@
 
 <header>
   <div class="wrap">
-    <a class="brand" href="#topo">Nome da Candidata</a>
+    <a class="brand" href="#topo">Liane Panzenhagen</a>
     <nav aria-label="Seções">
       <a href="#propostas">Propostas</a>
       <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
+      <a href="#voto">Vote</a>
     </nav>
   </div>
 </header>
@@ -129,19 +136,18 @@
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="tag">Candidatura à Direção Administrativa</p>
-        <h1>Uma administração que organiza, escuta e entrega.</h1>
-        <p class="lead">Seis compromissos para que a rotina de [Instituição] funcione com clareza, prazo e respeito a quem trabalha e a quem é atendido.</p>
+        <p class="tag">Candidatura à Direção de Unidade Administrativa Regionalizada</p>
+        <h1>Juntos por uma gestão forte e transparente.</h1>
+        <p class="lead">Liane Margarete Panzenhagen atua no Campus Universitário do Vale do Teles Pires desde a sua criação, em 1994. Conheça a proposta de trabalho para a direção administrativa do Campus.</p>
         <div class="cta">
           <a class="btn main" href="#propostas">Ver as propostas</a>
-          <a class="btn alt" href="#contato">Falar com a candidata</a>
+          <a class="btn alt" href="#sobre">Conhecer a trajetória</a>
         </div>
       </div>
-      <div class="arch" aria-hidden="false">
+      <div class="arch">
         <div class="frame">
-          <span>NC</span>
-          <!-- Para usar sua foto: salve como foto.jpg na mesma pasta do index.html -->
-          <img src="foto.jpg" alt="Retrato de Nome da Candidata" onerror="this.remove()">
+          <span>LP</span>
+          <img src="foto.jpg" alt="Retrato de Liane Panzenhagen" onerror="this.remove()">
         </div>
       </div>
     </div>
@@ -149,32 +155,58 @@
 
   <section class="props" id="propostas">
     <div class="wrap">
-      <h2>Propostas para a gestão</h2>
-      <p class="intro">Cada compromisso tem uma ação concreta e uma forma de ser cobrado. Clique para ler.</p>
+      <h2>Cinco eixos que norteiam nossa proposta de trabalho</h2>
+      <p class="intro">Cada eixo reúne ações concretas para o Campus. Clique para ler.</p>
       <div class="list">
         <details open>
-          <summary>Contas abertas a todos</summary>
-          <div class="body"><p>Prestação de contas simples e publicada em local de fácil acesso, para que qualquer pessoa entenda de onde vem e para onde vai cada recurso. <strong>Como:</strong> relatório trimestral e reunião aberta para perguntas.</p></div>
+          <summary>Gestão Participativa</summary>
+          <div class="body"><p class="lede">Diálogo, transparência e construção coletiva de um Campus para todos.</p>
+          <ul class="items">
+          <li><b>Gestão de pessoas.</b> Promover a integração entre as equipes, o compartilhamento de experiências e a formação continuada, em um ambiente de trabalho colaborativo, respeitoso e inclusivo, fortalecendo a comunicação interna e o trabalho em equipe.</li>
+          <li><b>Participação democrática.</b> Realizar assembleias, consultas e reuniões periódicas com a comunidade interna do Campus.</li>
+          <li><b>Gestão transparente.</b> Publicar relatórios de gestão, decisões administrativas e prestações de contas voltados ao dia a dia do Campus.</li>
+          <li><b>Valorização das pessoas.</b> Promover ações de reconhecimento, formação e melhoria das condições de trabalho e de estudo.</li>
+          <li><b>Planejamento participativo.</b> Definir metas, planejar e dividir as ações em equipe, valorizando a opinião do coletivo.</li>
+          <li><b>Avaliação da gestão.</b> Criar mecanismos periódicos de escuta, avaliação e divulgação dos resultados.</li>
+          </ul></div>
         </details>
         <details>
-          <summary>Processos mais simples e rápidos</summary>
-          <div class="body"><p>Revisar os fluxos que mais travam o dia a dia, reduzir etapas e deixar os prazos de resposta à vista. <strong>Como:</strong> mapeamento dos 10 processos mais usados e meta de prazo para cada um.</p></div>
+          <summary>Infraestrutura e Tecnologia</summary>
+          <div class="body"><p class="lede">Manutenção e ampliação dos espaços do Campus, com o objetivo de melhorar as condições de ensino, pesquisa e extensão e garantir o acesso às ferramentas digitais.</p>
+          <ul class="items">
+          <li><b>Manutenção da infraestrutura física.</b> Estabelecer prioridades para reformas, manutenção preventiva, adequação dos ambientes e ampliação do Campus.</li>
+          <li><b>Modernização tecnológica.</b> Garantir a modernização e a manutenção contínua dos laboratórios de informática, assegurando equipamentos tecnológicos atualizados para o uso acadêmico e administrativo do Campus.</li>
+          </ul></div>
         </details>
         <details>
-          <summary>Equipe valorizada e ouvida</summary>
-          <div class="body"><p>Quem executa o trabalho conhece onde ele falha. Criar espaço regular de escuta e investir em capacitação. <strong>Como:</strong> encontros mensais com a equipe e plano anual de formação.</p></div>
+          <summary>Apoio e Integração Acadêmica</summary>
+          <div class="body"><p class="lede">Fomentar a integração entre docentes, técnicos administrativos e estudantes, promovendo o apoio às atividades acadêmicas, a cooperação entre cursos e os eventos do Campus.</p>
+          <ul class="items">
+          <li><b>Apoio ao acadêmico.</b> Fortalecer, por meio do CAEST, o diálogo e a articulação com os acadêmicos, para aprimorar o acolhimento, qualificar o atendimento às demandas e promover melhores condições de bem-estar, conforto, inclusão e permanência na Universidade.</li>
+          <li><b>Políticas afirmativas.</b> Apoiar e fortalecer as políticas afirmativas e as ações institucionais de inclusão, equidade e respeito à diversidade, incentivando iniciativas que promovam igualdade de oportunidades, acolhimento e permanência estudantil, em articulação com os setores responsáveis e em consonância com as diretrizes institucionais.</li>
+          <li><b>Integração acadêmica.</b> Incentivar ações integradas entre cursos e departamentos, apoiando eventos institucionais que estimulem a participação dos acadêmicos de todos os cursos e fortaleçam a formação, a troca de conhecimentos e a cooperação interdisciplinar.</li>
+          <li><b>Fortalecimento do ensino, da pesquisa e da extensão.</b> Consolidar o ensino, a pesquisa e a extensão como pilares fundamentais do Campus, garantindo suporte aos projetos acadêmicos e ampliando o impacto social das ações universitárias.</li>
+          <li><b>Comunicação e participação.</b> Incentivar a participação da comunidade acadêmica na identificação de problemas, aprimorando os canais de comunicação e criando espaços de diálogo para reconhecer demandas e construir soluções coletivas.</li>
+          </ul></div>
         </details>
         <details>
-          <summary>Patrimônio conservado com planejamento</summary>
-          <div class="body"><p>Trocar o conserto de emergência pela manutenção preventiva, com inventário atualizado de bens e espaços. <strong>Como:</strong> calendário de manutenção e vistoria periódica.</p></div>
+          <summary>Transparência e Eficiência</summary>
+          <div class="body"><p class="lede">Uma gestão transparente, responsável e eficiente, pautada pela clareza das informações, pela otimização dos recursos públicos, pela simplificação dos processos administrativos e pelo compromisso com os resultados institucionais.</p>
+          <ul class="items">
+          <li><b>Transparência nas ações.</b> Ampliar a divulgação de decisões, investimentos, aplicação de recursos e resultados da gestão.</li>
+          <li><b>Eficiência administrativa.</b> Simplificar fluxos de trabalho, reduzir a burocracia e apoiar os procedimentos administrativos.</li>
+          <li><b>Planejamento e acompanhamento.</b> Estabelecer metas, prazos e indicadores para monitorar a execução das ações e avaliar os resultados.</li>
+          <li><b>Gestão responsável dos recursos.</b> Promover o uso racional dos recursos financeiros, materiais e humanos, priorizando as necessidades do Campus.</li>
+          <li><b>Comunicação institucional.</b> Fortalecer os canais de comunicação para facilitar o acesso às informações e dar mais clareza aos procedimentos.</li>
+          </ul></div>
         </details>
         <details>
-          <summary>Compras e contratos com planejamento</summary>
-          <div class="body"><p>Comprar melhor, no tempo certo e com critérios claros, evitando urgências que custam mais caro. <strong>Como:</strong> plano anual de compras e cotações documentadas.</p></div>
-        </details>
-        <details>
-          <summary>Atendimento com resposta garantida</summary>
-          <div class="body"><p>Um canal único para solicitações, com protocolo e retorno dentro do prazo informado. <strong>Como:</strong> registro de cada pedido e acompanhamento até a conclusão.</p></div>
+          <summary>Sustentabilidade e Parcerias</summary>
+          <div class="body"><p class="lede">Promover práticas sustentáveis na universidade e fortalecer parcerias institucionais que ampliem as oportunidades de cooperação, inovação e desenvolvimento acadêmico, administrativo e social.</p>
+          <ul class="items">
+          <li><b>Gestão sustentável dos espaços.</b> Estimular a conservação dos ambientes universitários, a melhoria das áreas de convivência e a adoção de práticas ambientalmente responsáveis.</li>
+          <li><b>Fortalecimento de parcerias.</b> Ampliar a articulação com instituições públicas e privadas, organizações sociais e demais entidades, visando à interação com a comunidade interna e externa.</li>
+          </ul></div>
         </details>
       </div>
     </div>
@@ -182,35 +214,46 @@
 
   <section class="about" id="sobre">
     <div class="wrap">
-      <h2>Quem é Nome da Candidata</h2>
+      <h2>Quem é Liane Panzenhagen</h2>
       <div>
-        <p>Escreva aqui um parágrafo curto sobre a candidata: formação, tempo de casa e o que a motiva a assumir a direção administrativa.</p>
-        <p>Um segundo parágrafo pode explicar por que ela conhece os problemas da instituição e como pretende trabalhar com as pessoas que a compõem.</p>
+        <p>Sou servidora técnica do ensino superior e atuo no Campus Universitário do Vale do Teles Pires desde a sua criação, em 1994. Ao longo de 32 anos, construí uma trajetória pautada pela dedicação ao Campus, pela experiência em gestão e pelo compromisso com o desenvolvimento institucional.</p>
+        <p>É com base nessa trajetória que apresento minha candidatura à Direção de Unidade Administrativa Regionalizada do Campus Universitário do Vale do Teles Pires. Meu objetivo é contribuir para uma gestão participativa, transparente e eficiente, que valorize as pessoas, fortaleça as atividades acadêmicas e administrativas e melhore continuamente as condições de trabalho, ensino e aprendizagem.</p>
+        <p>Sinto-me preparada e pretendo colocar minha experiência e meu conhecimento institucional a serviço de uma Universidade cada vez mais integrada, acolhedora e preparada para os desafios futuros, construindo, em conjunto com a comunidade acadêmica, soluções que atendam às necessidades do Campus e promovam seu desenvolvimento, sempre em parceria com a Diretoria Pedagógica.</p>
+        <h3>Formação acadêmica</h3>
+        <ul class="items">
+          <li>Licenciatura em Matemática</li>
+          <li>Especialização em Gestão Pública</li>
+          <li>Especialização em Recursos Humanos</li>
+          <li>Mestrado em Políticas Públicas e Gestão da Educação Superior</li>
+        </ul>
       </div>
     </div>
   </section>
 
   <section class="path">
     <div class="wrap">
-      <h2>Trajetória</h2>
+      <h2>Trajetória no Campus</h2>
       <ol class="steps">
-        <li><small>Ano – Ano</small><b>Primeira experiência</b>Cargo, instituição e o que foi feito.</li>
-        <li><small>Ano – Ano</small><b>Função de responsabilidade</b>Resultado concreto que a candidata entregou.</li>
-        <li><small>Ano – hoje</small><b>Atuação atual</b>Papel atual e o que aprendeu até aqui.</li>
+        <li><small>Desde 1994</small><b>Atuação desde a criação</b>Experiência nos setores Financeiro, Almoxarifado e Patrimônio.</li>
+        <li><small>2010 a 2014</small><b>Coordenadora Regional de Colíder</b>Dois períodos consecutivos à frente da coordenação regional.</li>
+        <li><small>Atualmente</small><b>Recursos Humanos</b>Atuação no setor de Recursos Humanos e na Secretaria Administrativa dos Cursos.</li>
       </ol>
     </div>
   </section>
 
-  <section class="contact" id="contato">
+  <section class="contact" id="voto">
     <div class="wrap">
-      <h2>Quer conversar sobre as propostas?</h2>
-      <a class="btn main" href="mailto:contato@exemplo.com">contato@exemplo.com</a>
+      <div>
+        <h2>No dia 12 de novembro, sua participação faz a diferença.</h2>
+        <p>Conto com seu apoio e sua confiança para, juntos, construirmos um Campus cada vez melhor, com diálogo, participação e compromisso com toda a comunidade acadêmica.</p>
+      </div>
+      <div class="vote">Vote Liane!</div>
     </div>
   </section>
 </main>
 
 <footer>
-  <div class="wrap">© 2026 Nome da Candidata · Candidatura à Direção Administrativa</div>
+  <div class="wrap">© 2026 Liane Margarete Panzenhagen · Candidata à Direção de Unidade Administrativa Regionalizada do Campus Universitário do Vale do Teles Pires</div>
 </footer>
 
 </body>
